@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" style=" background-color:blanchedalmond ;">
+<html lang="en" style=" background-color:blanchedalmond ;" class="bodyBack">
     <style>
 
         .green-text {
-        
+        font-size: x-large;
         color: #008000;
         
         }
 
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            }
+
+        .bodyBack {
+            background-image:linear-gradient(rgb(191, 202, 33), white);
+            align-content: center;      
+            
+            width: 100%x;
+
+        }
+
         .normal-font {
+            border-spacing: 10px;
+            font-size: larger;
             font-family: 'Times New Roman', Times, serif;
+            
+        }
+
+        .background-img {
+            /* background-image: url('testBack.jpg'); */
+            background-image:linear-gradient(rgb(243, 183, 243), yellow);
+            height: auto;
+            width: auto;
         }
         
         </style>
@@ -19,29 +44,32 @@
     <title>Welcome to Swapnil WebPage</title>
   
 </head>
-<h1 style="text-align: center;">About Me</h1>
+<marquee style="background-color: wheat; font-size: 150%;"  behavior="alternate" direction="left">THIS SITE IS UNDER DEVELOPMENT, SUGGESTIONS ARE WELCOME, PLEASE CONTACT ME <a href="#"> swap12875@gmail.com</a></marquee>
+<div>
+    <h1 style="text-align: center; font-stretch:ultra-expanded;"> <u>About Me</u></h1> 
+</div>
+<div style="width: fit-content; border-radius: 25px; background-image:linear-gradient( rgb(235, 208, 208), rgb(229, 231, 86));" class="center" >
+<a href="Business.html" display:inline-block  target="blank" ><img height="200"; width="200" src="logo2.png" class="center"> </a>
+</div>
 <br>
 <hr>
+
+
+<div class="background-img">
 <table border-spacing ="100px">
     <tr >
-        <tr>
-            <td><img src="profileImage.png" height="200"; width="200"; style="align-content: center;" alt="I am looking like this"></td>
-            <td>                </td>
-            <td>
-            <p id="name" style="font-size:150%; color: crimson; border-color: darkgoldenrod;
-            "><strong>
-                Swapnil R Sananse
-            </strong>
-            </p id="specs">
-            <p style="color: #334499;">A Web Developer, A Freelancer, Amature
-                Writer
-                <br>
-                <br>
-                India
+        <td><img src="profileImage.png" height="200"; width="200"; style="align-content: center;" alt="I am looking like this"></td>
+        <td><p id="name" style="font-size:150%; color: rgb(29, 6, 92);font-weight: bold; border-color: darkgoldenrod;"><strong> <u>  Swapnil R Sananse</u> </strong></p>
+            <p style="color: #00007d; font-weight: bold;">A Web Developer, A Freelancer, Amature Writer 
+            <br>
+            <br>
+            India
             </p>
-            </tr>
+        </td>
+        <td><img src="" alt=""></td>
     </tr>
 </table>
+</div>
 <br>
 
 <hr >
@@ -51,10 +79,10 @@
 </strong>
 </span>
 <ul class="normal-font">
-        <li>Java</li>
-<li>Selenium</li>
-<li>Appium</li>
-<li>Automation Testing</li>
+        <li>Java </li>
+<li>Selenium </li>
+<li>Appium </li>
+<li>Automation Testing </li>
 <li>Maven</li>
 </ul>
 
@@ -64,11 +92,25 @@
     Academics
 </strong>
 </span>
-<ul class="normal-font">
-<li>B.Sc(Chemistry)</li>
-<li>M.Sc(Env. Science)</li>
-<li>MBA (HR)</li>
-</ul>
+<table class="normal-font" >
+    <tr>
+        <td>B.Sc(Chemistry)</td>
+        <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>M.Sc(Env. Science)</td>
+        <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td>MBA (HR)</td>
+        <td>⭐⭐⭐</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+ 
 </div>
 
 <hr>
@@ -82,6 +124,28 @@
     <li>Qualifed IMO level-1 Marine Pollution Response Course ( International Maritime Organization)</li>
     </ul>
 
+</div>
+<hr>
+<div>
+    <span style="font-style: oblique; color: darkred;">Hey feel free to contact me</span>
+    <form action="post">
+        <label for="enter-Name"> Please Enter your Name :</label>
+        <input type="text">
+        <br>
+        <label for="enter-email"> Please Enter eMail :</label>
+        <input type="email">
+        <br>
+        <label for="enter-Description"> Please Enter Some Thing about your self :</label>
+        <textarea type="text"></textarea>
+        <br>
+        <button> Proceed</button>
+        
+    </form>
+</div>
+<hr>
+<div style="text-align: center;">
+<h6 >Site credits and Maintained by : <strong>Swapnil R Sananse</strong>
+</h6>
 </div>
 
 
